@@ -364,7 +364,7 @@ namespace glm
 #	if GLM_CONFIG_LENGTH_TYPE == GLM_LENGTH_SIZE_T
 		typedef size_t length_t;
 #	else
-		typedef int length_t;
+		typedef unsigned int length_t;
 #	endif
 }//namespace glm
 
