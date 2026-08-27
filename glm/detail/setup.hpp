@@ -733,7 +733,7 @@ namespace detail
 #	if GLM_CONFIG_LENGTH_TYPE == GLM_LENGTH_SIZE_T
 #		pragma message("GLM: GLM_FORCE_SIZE_T_LENGTH is defined. .length() returns a glm::length_t, a typedef of std::size_t.")
 #	else
-#		pragma message("GLM: GLM_FORCE_SIZE_T_LENGTH is undefined. .length() returns a glm::length_t, a typedef of int following GLSL.")
+#		pragma message("GLM: GLM_FORCE_SIZE_T_LENGTH is undefined. .length() returns a glm::length_t, a typedef of unsigned int.")
 #	endif
 
 #	if GLM_CONFIG_UNRESTRICTED_GENTYPE == GLM_ENABLE
